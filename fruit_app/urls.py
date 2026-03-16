@@ -1,6 +1,6 @@
 from django.urls import path
-from .views import fruit_view
+from .views import send_fruit
 
 urlpatterns=[
-    path('', fruit_view)
+    path('', send_fruit),
 ]
